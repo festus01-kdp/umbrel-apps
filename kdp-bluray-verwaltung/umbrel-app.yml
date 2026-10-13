@@ -1,8 +1,10 @@
 manifestVersion: 1
 id: kdp-bluray-verwaltung
+storage:
+  dataRoot: data
 category: media
 name: BluRayVerwaltung
-version: "1.0.0"
+version: "1.0.1"
 tagline: Deine Blu-Ray-Sammlung im Überblick
 icon: https://raw.githubusercontent.com/festus01-kdp/umbrel-apps/main/kdp-bluray-verwaltung/icon.svg
 description: >-
@@ -24,4 +26,5 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 dependencies: []
-releaseNotes: ""
+releaseNotes: >-
+  Datenordner gehört jetzt dem Umbrel-Benutzer, damit die App ihre Datenbank anlegen kann.
