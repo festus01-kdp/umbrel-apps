@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: kdp-bluray-verwaltung_web_1
+      APP_PORT: 8080
+
+  web:
+    image: ghcr.io/festus01-kdp/bluray-verwaltung:1.0.0@sha256:d4b9b8944a6bd097883f7083d0413006d2766760be371cd5d52522a183b524be
+    user: "1000:1000"
+    restart: on-failure
+    volumes:
+      # SQLite-Datenbank (Blu-Rays, Cover, Einstellungen) und Formular-Schlüssel
+      - ${APP_DATA_DIR}/data:/data

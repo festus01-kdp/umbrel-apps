@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: kdp-bluray-verwaltung
+category: media
+name: BluRayVerwaltung
+version: "1.0.0"
+tagline: Deine Blu-Ray-Sammlung im Überblick
+icon: https://raw.githubusercontent.com/festus01-kdp/umbrel-apps/main/kdp-bluray-verwaltung/icon.svg
+description: >-
+  Verwalte deine Blu-Ray-Sammlung: Barcode scannen, Titel, Regisseur, Laufzeit, FSK und Cover
+  automatisch von The Movie Database (TMDB) übernehmen, Standort im Regal und Zustand festhalten
+  und sehen, was du schon gesehen hast.
+
+
+  Nach der Installation unter „Einstellungen“ einen kostenlosen TMDB-API-Schlüssel eintragen.
+developer: KDP
+website: https://github.com/festus01-kdp
+submitter: KDP
+submission: https://github.com/festus01-kdp/umbrel-apps
+repo: ""
+support: https://github.com/festus01-kdp/umbrel-apps/issues
+port: 8732
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+dependencies: []
+releaseNotes: ""
