@@ -4,7 +4,7 @@ storage:
   dataRoot: data
 category: media
 name: BluRayVerwaltung
-version: "1.2.0"
+version: "1.3.0"
 tagline: Deine Blu-Ray-Sammlung im Überblick
 icon: https://raw.githubusercontent.com/festus01-kdp/umbrel-apps/main/kdp-bluray-verwaltung/icon.svg
 description: >-
@@ -27,4 +27,4 @@ defaultUsername: ""
 defaultPassword: ""
 dependencies: []
 releaseNotes: >-
-  Genre aus TMDB (wird für vorhandene Einträge nachgetragen), Cover-Vorschau beim Darüberfahren, Kamera nur noch per Knopf, bessere Barcode-Erkennung
+  Deutsche Tonspur (Vorschlag von bluray-disc.de), Symbol-Knöpfe in der Tabelle, bessere Barcode-Erkennung
