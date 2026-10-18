@@ -4,7 +4,7 @@ storage:
   dataRoot: data
 category: media
 name: BluRayVerwaltung
-version: "1.3.2"
+version: "1.4.0"
 tagline: Deine Blu-Ray-Sammlung im Überblick
 icon: https://raw.githubusercontent.com/festus01-kdp/umbrel-apps/main/kdp-bluray-verwaltung/icon.svg
 description: >-
@@ -27,4 +27,4 @@ defaultUsername: ""
 defaultPassword: ""
 dependencies: []
 releaseNotes: >-
-  Bessere Titelerkennung: Suchbegriff wird gekürzt, wenn TMDB nichts findet (z. B. angehängte Schauspieler)
+  Titel, Ausgaben-Cover (z. B. Steelbook), Medium (4K/3D) und Verpackung von bluray-disc.de; bessere Titelerkennung
