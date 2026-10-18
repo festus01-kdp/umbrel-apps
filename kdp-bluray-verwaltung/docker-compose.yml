@@ -7,7 +7,7 @@ services:
       APP_PORT: 8080
 
   web:
-    image: ghcr.io/festus01-kdp/bluray-verwaltung:1.4.1@sha256:9c869fc7c9d0e7853b12018cddbbf663c7ee81fb2de750df4c8a85ae5ddd0366
+    image: ghcr.io/festus01-kdp/bluray-verwaltung:1.5.0@sha256:12b635197aa17ba2becffababab31cd1673faa75861aa345da0fabe46ab3940b
     user: "1000:1000"
     restart: on-failure
     volumes:
