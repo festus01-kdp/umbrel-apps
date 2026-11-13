@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: kdp-preischeck-sync_web_1
+      APP_PORT: 8080
+      # Die Schnittstelle nutzt PreisCheck auf Mac und Handy – ohne Umbrel-Anmeldung,
+      # dafür mit eigenem Zugangsschlüssel. Die Startseite (zeigt den Schlüssel) bleibt geschützt.
+      PROXY_AUTH_WHITELIST: "/api/*"
+
+  web:
+    image: ghcr.io/festus01-kdp/preischeck-sync:1.0.0@sha256:bef69d2d0114103c27c0906f9ce622d99b7f42100735c90fc04b05cce18bfd7a
+    user: "1000:1000"
+    restart: on-failure
+    volumes:
+      # Datenbank (preischeck.db, Vorfassung .vorher) und Zugangsschlüssel (schluessel.txt)
+      - ${APP_DATA_DIR}/data:/data

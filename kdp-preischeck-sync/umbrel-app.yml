@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: kdp-preischeck-sync
+category: files
+name: PreisCheck-Sync
+version: "1.0.0"
+tagline: Kassenbons und Barcodes zwischen Mac und Handy abgleichen
+icon: https://raw.githubusercontent.com/festus01-kdp/umbrel-apps/main/kdp-preischeck-sync/icon.svg
+description: >-
+  Gegenstück zur App PreisCheck: Der Mac liest die Kassenbons ein und schickt die Datenbank
+  hierher, das Handy holt sie ab – über Tailscale auch unterwegs im Laden. Im Laden verknüpfte
+  Barcodes kommen auf demselben Weg zurück auf den Mac.
+
+
+  Nach der Installation die App öffnen und den Zugangsschlüssel in PreisCheck unter ⚙ eintragen.
+  Die Verbindung läuft über HTTPS („Local HTTPS“ von umbrelOS); Mac und Handy müssen der
+  „Umbrel Local HTTPS CA“ vertrauen.
+developer: KDP
+website: https://github.com/festus01-kdp
+submitter: KDP
+submission: https://github.com/festus01-kdp/umbrel-apps
+repo: ""
+support: https://github.com/festus01-kdp/umbrel-apps/issues
+port: 8733
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+dependencies: []
+releaseNotes: >-
+  Erste Version: Datenbank von PreisCheck zwischen Mac und Handy abgleichen

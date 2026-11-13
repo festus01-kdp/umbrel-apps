@@ -15,3 +15,4 @@ https://github.com/festus01-kdp/umbrel-apps
 | App | Beschreibung |
 | --- | --- |
 | BluRayVerwaltung | Blu-Ray-Sammlung verwalten: Barcode scannen, Filmdaten und Cover von TMDB |
+| PreisCheck-Sync | Kassenbons und Barcodes von PreisCheck zwischen Mac und Handy abgleichen |

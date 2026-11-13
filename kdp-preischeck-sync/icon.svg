@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2FA8CC"/><stop offset="1" stop-color="#0B7FA6"/></linearGradient></defs>
+  <rect width="256" height="256" rx="56" fill="url(#g)"/>
+  <!-- Kassenbon -->
+  <path d="M84 30h88v148l-11-8-11 8-11-8-11 8-11-8-11 8-11-8-11 8z" fill="#fff"/>
+  <rect x="98" y="52" width="60" height="8" rx="4" fill="#0B7FA6" opacity=".55"/>
+  <rect x="98" y="72" width="44" height="8" rx="4" fill="#0B7FA6" opacity=".55"/>
+  <rect x="98" y="92" width="52" height="8" rx="4" fill="#0B7FA6" opacity=".55"/>
+  <!-- Pfeile hin und her -->
+  <g fill="none" stroke="#fff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M78 208h96"/><path d="M160 196l14 12-14 12"/>
+    <path d="M178 234h-96" opacity=".85"/><path d="M96 222l-14 12 14 12" opacity=".85"/>
+  </g>
+</svg>
